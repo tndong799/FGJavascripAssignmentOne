@@ -56,7 +56,7 @@ console.log('Test case cau 2a: ',res);
 // 2b (10đ)
 // Dùng hàm vừa thiết kế, lọc ra các phần tử là số chẵn trong mảng sau [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
-const filterEvenNumber = customFilter([0, 1, 2, 3, 4, 5, 6, 7, 8, 9,10, 11], (value) => !(value % 2) && value);
+const filterEvenNumber = customFilter([0, 1, 2, 3, 4, 5, 6, 7, 8, 9,10, 11], (value) => !(value % 2));
 
 
 console.log('Test case cau 2b: ',filterEvenNumber)
